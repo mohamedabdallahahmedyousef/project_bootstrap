@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frist project bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+    
+    .carousel-indicators [data-bs-target]{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: rgb(0, 255, 166);
+    }
+    
+    
+.carousel-control-next-icon , 
+.carousel-control-prev-icon{
+
+    background-color: rgb(0, 255, 166);
+} 
+
+    </style>
+</head>
+<body>
+    <!-- start nav -->
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">FOOD</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mx-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Menu</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contect</a>
+              </li>
+             
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+    <!-- end navbar -->
+    
+    <!-- start slider -->
+    
+    <div id="carouselExampleIndicators" class="carousel slide mx-3 my-5">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/hamburger.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/hamburger.jpg" class="d-block w-100 " alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/hamburger.jpg" class="d-block w-100" alt="...">
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <!-- end slider  -->
+    
+    <!-- start content 1 -->
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-12 col-md-6 d-none d-md-block">
+                <img src="image/tablesetting2.jpg" class="img-fluid opacity-75">
+                </div>
+                <div class="col-12 col-md-6">
+                <h1 class="text-center my-5 display-3">About Catering</h1>
+                <h3  class="text-center my-5 display-6">Tradition since 1889</h3>
+                <p class="ps-4 h5">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.</p>
+                <p class="ps-4 text-muted d-md-none d-lg-block">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+        </div>
+        <hr>
+        <div class="row my-5">
+        <div class="col-12 col-lg-6">
+        
+            <h2 class="text-center display-6 my-5">Our Menu</h2>
+            <div class="my-5">
+            <h4>Bread Basket</h4>
+            <p class="text-muted">Assortment of fresh baked fruit breads and muffins 5.50</p>
+            </div>
+            <div class="my-5">
+                <h4>Honey Almond Granola with Fruits</h4>
+                <p class="text-muted">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+            </div>
+            <div class="my-5">
+                <h4>Belgian Waffle</h4>
+                <p class="text-muted">Vanilla flavored batter with malted flour 7.50</p>
+            </div>
+            <div class="my-5">
+                <h4>Scrambled eggs</h4>
+                <p class="text-muted">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+            </div>
+            <div class="my-5">
+                <h4>Blueberry Pancakes</h4>
+                <p class="text-muted">With syrup, butter and lots of berries 8.50</p>
+            </div>
+       
+        
+        </div>
+        <div class="col-12 col-lg-6">
+        <img src="image/tablesetting.jpg" class="img-fluid opacity-75">
+        </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-12 col-md-3"  data-aos="fade-in" data-aos-duration="2000">
+          <img src="image/sandwich.jpg " class="img-fluid">
+          <h5 class="text-center my-5">The Perfect Sandwich, A Real NYC Classic</h5>
+          <p  class="text-center text-muted"> Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </div>
+          <div class="col-12 col-md-3"  data-aos="fade-in" data-aos-duration="2000">
+          <img src="image/steak.jpg" class="img-fluid">
+          <h5 class="text-center my-5">Let Me Tell You About This Steak</h5>
+          <p  class="text-center text-muted ">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </div>
+          <div class="col-12 col-md-3"  data-aos="fade-in" data-aos-duration="2000">
+          <img src="image/cherries.jpg" class="img-fluid">
+          <h5 class="text-center my-5">Cherries, interrupted</h5>
+          <p  class="text-center text-muted">Lorem ipsum text praesent tincidunt ipsum lipsum.
+
+            What else?</p>
+            
+          </div>
+          <div class="col-12 col-md-3"  data-aos="fade-in" data-aos-duration="2000">
+          <img src="image/wine.jpg" class="img-fluid">
+          <h5 class="text-center my-5">Once Again, Robust Wine and Vegetable Pasta</h5>
+          <p  class="text-center text-muted">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </div>
+        </div>
+        </div>
+        
+    <!-- end content 1 -->
+    
+    
+    
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
